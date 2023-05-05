@@ -2,7 +2,7 @@ import { BsFacebook, BsYoutube } from "react-icons/bs";
 import { CgCrown } from "react-icons/cg";
 import { FaDiscord } from "react-icons/fa";
 import { MdAddModerator } from "react-icons/md";
-import { SiProbot } from "react-icons/si";
+import { CHAT } from "SCREENSHOT_2023-04-07-16-26-51-920.JPG" ;
 import { TbMessage2Code } from "react-icons/tb";
 const config = {
   name: "Chat GPT",
@@ -21,7 +21,7 @@ const config = {
       name: "99% Uptime",
       description:
         "Uptime is a measure of system reliability, expressed as the percentage of time a machine, typically a computer.",
-      logo: <SiProbot className="h-10 w-10" />,
+      logo: <CHAT className="h-10 w-10" />,
     },
     {
       name: "Chat",
