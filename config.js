@@ -8,7 +8,7 @@ const config = {
   name: "Chat GPT",
   //BotName
   inviteLink:
-    "https://discord.com/oauth2/authorize?client_id=879602399067660338&permissions=8&scope=bot&redirect_uri=https://docs.markos.ga&response_type=code",
+    "https://discord.com/api/oauth2/authorize?client_id=1094297266984063016&permissions=8&scope=bot",
   //BotInvite Link
   Features: [
     {
@@ -38,8 +38,8 @@ const config = {
     // You can added more features if need add
   ],
   //Bot Features
-  serverCount: 300, //-  - Your
-  memberCount: 700, //--   - Bot
+  serverCount: 75, //-  - Your
+  memberCount: 14566, //--   - Bot
   executedCommand: 100, //--  - Stats
   availableCommand: 3, //---   - Here
   //Do not change if you don't know about them
@@ -54,12 +54,12 @@ const config = {
   ),
   //----------------------------------------------------------------
   // Your social handle links
-  githubLink: "https://github.com/mohitmimani",
-  twitterLink: "https://twitter.com",
-  mediumLink: "https://medium.com/",
-  facebookLink: "https://facebook.com",
-  discordLink: "https://discord.com",
-  youtubeLink: "https://www.youtube.com/channel/UCfhRHeex9lU0ZAVJot6Z2ZQ",
+  
+  
+
+
+  discordLink: "https://discord.gg/r6gtBBHSTh",
+  youtubeLink: "https://youtube.com/@greatlake_editz",
 };
 
 export default config;
