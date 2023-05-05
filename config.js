@@ -32,7 +32,7 @@ const config = {
     {
       name: "Ask",
       description:
-        "Ask is a command to ask any question on your minf",
+        "Ask is a command to ask any question on your mind",
       logo: <CgCrown className="h-10 w-10" />,
     },
     // You can added more features if need add
