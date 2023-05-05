@@ -5,16 +5,16 @@ import { MdAddModerator } from "react-icons/md";
 import { SiProbot } from "react-icons/si";
 import { TbMessage2Code } from "react-icons/tb";
 const config = {
-  name: "ProBot",
+  name: "Chat GPT",
   //BotName
   inviteLink:
     "https://discord.com/oauth2/authorize?client_id=879602399067660338&permissions=8&scope=bot&redirect_uri=https://docs.markos.ga&response_type=code",
   //BotInvite Link
   Features: [
     {
-      name: "Moderation",
+      name: "Ping",
       description:
-        "Moderation is the process of eliminating or lessening extremes.",
+        "Ping is a command with no use, just for fun.",
       logo: <MdAddModerator className="h-10 w-10" />,
     },
     {
@@ -24,15 +24,15 @@ const config = {
       logo: <SiProbot className="h-10 w-10" />,
     },
     {
-      name: "Automation",
+      name: "Chat",
       description:
-        "Automation describes a wide range of technologies that reduce  human intervention in processes.",
+        "Chat starts a thread in the channel used in.",
       logo: <TbMessage2Code className="h-10 w-10" />,
     },
     {
-      name: "Welcomer",
+      name: "Ask",
       description:
-        "Welcomer is the person who greet the new person in an unique and great way",
+        "Ask is a command to ask any question on your minf",
       logo: <CgCrown className="h-10 w-10" />,
     },
     // You can added more features if need add
@@ -40,8 +40,8 @@ const config = {
   //Bot Features
   serverCount: 300, //-  - Your
   memberCount: 700, //--   - Bot
-  executedCommand: 27000, //--  - Stats
-  availableCommand: 400, //---   - Here
+  executedCommand: 100, //--  - Stats
+  availableCommand: 3, //---   - Here
   //Do not change if you don't know about them
   faceBookLogo: (
     <BsFacebook className="h-10 w-10 text-[#4267B2] hover:scale-125 easeIn cursor-pointer" />
